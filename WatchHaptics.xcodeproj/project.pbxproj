@@ -8,17 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		D33A21EE2B70192600973E26 /* WatchHapticsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33A21ED2B70192600973E26 /* WatchHapticsApp.swift */; };
-		D33A21F02B70192600973E26 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33A21EF2B70192600973E26 /* ContentView.swift */; };
 		D33A21F22B70192700973E26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D33A21F12B70192700973E26 /* Assets.xcassets */; };
 		D33A21F52B70192700973E26 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D33A21F42B70192700973E26 /* Preview Assets.xcassets */; };
+		D380DDCA2B70B57600B8D993 /* CountdownTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D380DDC92B70B57600B8D993 /* CountdownTimerView.swift */; };
+		D380DDCE2B70B77500B8D993 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D380DDCD2B70B77500B8D993 /* SettingsView.swift */; };
+		D380DDD42B70B9BB00B8D993 /* TimerIntervalManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D380DDD32B70B9BB00B8D993 /* TimerIntervalManager.swift */; };
+		D380DDD82B70BBAE00B8D993 /* IntervalPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D380DDD72B70BBAE00B8D993 /* IntervalPickerView.swift */; };
+		D380DDDA2B70BC9D00B8D993 /* EditIntervalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D380DDD92B70BC9C00B8D993 /* EditIntervalView.swift */; };
+		D380DDE02B70D00600B8D993 /* IntervalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D380DDDF2B70D00600B8D993 /* IntervalType.swift */; };
+		D3DC92562B701FF300A61FFA /* TimerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DC92552B701FF300A61FFA /* TimerManager.swift */; };
+		D3DC925E2B702C4500A61FFA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DC925D2B702C4500A61FFA /* Extensions.swift */; };
+		D3DC92642B70367800A61FFA /* TimerSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DC92632B70367800A61FFA /* TimerSelectionView.swift */; };
+		D3DC926A2B7036EF00A61FFA /* ContinuousTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DC92692B7036EF00A61FFA /* ContinuousTimerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D33A21EA2B70192600973E26 /* WatchHaptics Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchHaptics Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D33A21ED2B70192600973E26 /* WatchHapticsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchHapticsApp.swift; sourceTree = "<group>"; };
-		D33A21EF2B70192600973E26 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D33A21F12B70192700973E26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D33A21F42B70192700973E26 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D380DDC92B70B57600B8D993 /* CountdownTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownTimerView.swift; sourceTree = "<group>"; };
+		D380DDCD2B70B77500B8D993 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		D380DDD32B70B9BB00B8D993 /* TimerIntervalManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerIntervalManager.swift; sourceTree = "<group>"; };
+		D380DDD72B70BBAE00B8D993 /* IntervalPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntervalPickerView.swift; sourceTree = "<group>"; };
+		D380DDD92B70BC9C00B8D993 /* EditIntervalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditIntervalView.swift; sourceTree = "<group>"; };
+		D380DDDF2B70D00600B8D993 /* IntervalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntervalType.swift; sourceTree = "<group>"; };
+		D3DC92542B701FAA00A61FFA /* WatchHaptics-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "WatchHaptics-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		D3DC92552B701FF300A61FFA /* TimerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerManager.swift; sourceTree = "<group>"; };
+		D3DC925D2B702C4500A61FFA /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		D3DC92632B70367800A61FFA /* TimerSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerSelectionView.swift; sourceTree = "<group>"; };
+		D3DC92692B7036EF00A61FFA /* ContinuousTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinuousTimerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +70,12 @@
 		D33A21EC2B70192600973E26 /* WatchHaptics Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				D3DC92542B701FAA00A61FFA /* WatchHaptics-Watch-App-Info.plist */,
 				D33A21ED2B70192600973E26 /* WatchHapticsApp.swift */,
-				D33A21EF2B70192600973E26 /* ContentView.swift */,
+				D3DC925F2B7033D700A61FFA /* Views */,
+				D3DC92622B7033FE00A61FFA /* Managers */,
+				D380DDE12B70D00E00B8D993 /* Enums */,
+				D3DC92602B7033EA00A61FFA /* Extensions */,
 				D33A21F12B70192700973E26 /* Assets.xcassets */,
 				D33A21F32B70192700973E26 /* Preview Content */,
 			);
@@ -65,6 +88,68 @@
 				D33A21F42B70192700973E26 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D380DDDC2B70CF6B00B8D993 /* IntervalViews */ = {
+			isa = PBXGroup;
+			children = (
+				D380DDD72B70BBAE00B8D993 /* IntervalPickerView.swift */,
+				D380DDD92B70BC9C00B8D993 /* EditIntervalView.swift */,
+			);
+			path = IntervalViews;
+			sourceTree = "<group>";
+		};
+		D380DDDD2B70CF7700B8D993 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				D380DDCD2B70B77500B8D993 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		D380DDDE2B70CF8200B8D993 /* Timers */ = {
+			isa = PBXGroup;
+			children = (
+				D3DC92692B7036EF00A61FFA /* ContinuousTimerView.swift */,
+				D380DDC92B70B57600B8D993 /* CountdownTimerView.swift */,
+			);
+			path = Timers;
+			sourceTree = "<group>";
+		};
+		D380DDE12B70D00E00B8D993 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				D380DDDF2B70D00600B8D993 /* IntervalType.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		D3DC925F2B7033D700A61FFA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D3DC92632B70367800A61FFA /* TimerSelectionView.swift */,
+				D380DDDE2B70CF8200B8D993 /* Timers */,
+				D380DDDC2B70CF6B00B8D993 /* IntervalViews */,
+				D380DDDD2B70CF7700B8D993 /* Settings */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D3DC92602B7033EA00A61FFA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D3DC925D2B702C4500A61FFA /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D3DC92622B7033FE00A61FFA /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				D3DC92552B701FF300A61FFA /* TimerManager.swift */,
+				D380DDD32B70B9BB00B8D993 /* TimerIntervalManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +222,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D33A21F02B70192600973E26 /* ContentView.swift in Sources */,
+				D380DDE02B70D00600B8D993 /* IntervalType.swift in Sources */,
+				D380DDDA2B70BC9D00B8D993 /* EditIntervalView.swift in Sources */,
+				D380DDD82B70BBAE00B8D993 /* IntervalPickerView.swift in Sources */,
+				D3DC92562B701FF300A61FFA /* TimerManager.swift in Sources */,
+				D380DDCA2B70B57600B8D993 /* CountdownTimerView.swift in Sources */,
 				D33A21EE2B70192600973E26 /* WatchHapticsApp.swift in Sources */,
+				D3DC92642B70367800A61FFA /* TimerSelectionView.swift in Sources */,
+				D380DDCE2B70B77500B8D993 /* SettingsView.swift in Sources */,
+				D3DC925E2B702C4500A61FFA /* Extensions.swift in Sources */,
+				D3DC926A2B7036EF00A61FFA /* ContinuousTimerView.swift in Sources */,
+				D380DDD42B70B9BB00B8D993 /* TimerIntervalManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +364,7 @@
 				DEVELOPMENT_TEAM = Y96XUGCJZ5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "WatchHaptics-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = WatchHaptics;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "";
@@ -300,6 +395,7 @@
 				DEVELOPMENT_TEAM = Y96XUGCJZ5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "WatchHaptics-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = WatchHaptics;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "";

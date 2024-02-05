@@ -9,7 +9,32 @@ import SwiftUI
 
 struct TimerSelectionView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            NavigationLink {
+                ContinuousTimerView()
+            } label: {
+                Text("Continuous")
+            }
+            
+            NavigationLink {
+                CountdownTimerView()
+            } label: {
+                Text("Countdown")
+            }
+
+            .navigationTitle("Timers")
+            
+            .toolbar {
+                ToolbarItem(placement: .topBarTrailing) {
+                    NavigationLink {
+                        SettingsView()
+                    } label: {
+                        Image(systemName: "gear")
+                            .foregroundStyle(.white)
+                    }
+                }
+            }
+        }
     }
 }
 
