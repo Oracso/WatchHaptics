@@ -2,7 +2,7 @@
 
 ### Overview:
 
-A customisable WatchOS app that schedules repeating haptic notifications
+An independent WatchOS app that schedules customisable repeating haptic notifications
 
 <p align="center">
 <img src="PreviewResources/ScreenRecording1.gif" width="200" title="App Example">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
