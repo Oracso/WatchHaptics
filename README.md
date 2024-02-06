@@ -1,16 +1,18 @@
 # Watch Haptics
 
 <section align="center">
-  <img src="PreviewAssets/ScreenRecording1.gif" title="App Simulator Example" alt="A gif briefly showcasing the app's capabilities" width="230">
+  <img src="PreviewAssets/ScreenRecording1.gif" width="230" title="Countdown Timer Example">
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="PreviewAssets/ScreenRecording2.gif" width="200"  title="Title" alt="Description">
+  <img src="PreviewAssets/ScreenRecording2.gif" width="200"  title="Continuous Timer Example">
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="PreviewAssets/ScreenRecording3.gif" width="175"  title="Title" alt="Description">
+<img src="PreviewAssets/ScreenRecording3.gif" width="175"  title="Edit Intervals Example">
 </section>
 
 ### Overview:
 
-An independent WatchOS app that schedules customisable repeating haptic notifications
+An independent WatchOS app that schedules customisable repeating haptic notifications.
+
+### Use Case:
 
 <details open>
         <summary>Contents:</summary>
