@@ -21,6 +21,7 @@ An independent WatchOS app that schedules customisable repeating haptic notifica
         <li><h3><a href="#current-difficulties">Current Difficulties</a></h3></li>
         <li><h3><a href="#past-problems">Past Problems</a></h3></li>
         <li><h3><a href="#screenshots">Screenshots</a></h3></li>
+        <li><h3><a href="#licensing">Licensing</a></h3></li>
     </ul>
     </details>
 &nbsp;
@@ -30,22 +31,11 @@ An independent WatchOS app that schedules customisable repeating haptic notifica
 
 ## Future Plans:
 
-### Plan 1:
-
-
-### Plan 2:
-
-
 
 ## Current Difficulties:
 
-### Problem 1:
-
 
 ## Past Problems:
-
-### Resolved 1:
-
 
 
 
