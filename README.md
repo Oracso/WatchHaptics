@@ -59,3 +59,6 @@ An independent WatchOS app that schedules customisable repeating haptic notifica
 ### Licensing
 
 There is [no license](https://choosealicense.com/no-permission/) associated with this project other than usual GitHub [Terms of Service](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service), however, please be mindful and acknowledge me as the original author if you use significant or distinct portions of this code.
+
+
+<iframe src="https://github.com/Oracso/WatchHaptics"></iframe>
