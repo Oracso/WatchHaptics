@@ -39,11 +39,23 @@ Regular and repeating haptic notifications are a useful and versatile tool with 
 
 #### - <ins>Variable Haptic Intensity</ins>
 
+
 ## Current Difficulties:
+
+
+#### - <ins>Issues with local deployment</ins>
+
+Having problems deploying the application directly to a device for testing. This is likely a local issue with device certificates registered within Xcode or under the Apple Developer account, although it has been okay with other projects so will need to debug to know for sure. Beta versions have been tested on a physical device.
 
 
 ## Past Problems:
 
+#### - <ins>Maintaining reusable code across notification types</ins>
+
+There was some initial difficulty ensuring that timer logic and UI elements could be reused across continuous and time-limited notifications. This was because beta code was improved upon and made generic within a single context, after adding additional contexts logic was further developed to easily accommodate any future developments.
+
+
+#### - <ins>Customisable Interval Presets</ins>
 
 
 
