@@ -52,7 +52,8 @@ Having problems deploying the application directly to a device for testing. This
 
 #### - <ins>Maintaining reusable code across notification types</ins>
 
-There was some initial difficulty ensuring that timer logic and UI elements could be reused across continuous and time-limited notifications. This was because beta code was improved upon and made generic within a single context, after adding additional contexts logic was further developed to easily accommodate any future developments.
+There was some initial difficulty ensuring that timer logic and UI elements could be reused across continuous and time-limited notifications. This was because beta code was improved upon and made generic within a single context, after adding additional contexts logic was further developed to easily accommodate any future developments. A good example of code reusability is the **IntervalPickerView** which was written generically to enable its use points throughout the project.
+
 
 
 #### - <ins>Customisable Interval Presets</ins>
