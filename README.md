@@ -10,7 +10,7 @@
 
 ### Overview:
 
-An independent WatchOS app that schedules customisable repeating haptic notifications.
+An independent **WatchOS** app that schedules customisable repeating haptic notifications.
 
 ### Use Case:
 
