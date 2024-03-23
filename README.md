@@ -14,7 +14,11 @@ An independent WatchOS app that schedules customisable repeating haptic notifica
 
 ### Use Case:
 
-Regular and repeating haptic notifications are a useful and versatile tool with a range of applications. Distinct from typical **NotificationCenter** notifications, this WatchOS haptic app provides users with the ability to adapt notification frequency and intensity tailored to unique situations and individual needs. A simple and intuitive interface allows for the swift deployment of either pre-configured interval-based notifications or continuous, uninterrupted notifications, ensuring flexibility in haptic delivery suitable for any situation. Utilising this application empowers users to remain informed and connected throughout their day, enriching their overall experience with Apple's wearable technology.
+Regular and repeating haptic notifications are a useful and versatile tool with a range of applications. Distinct from typical **NotificationCenter** notifications, this **WatchOS** haptic app provides users with the ability to adapt notification frequency and intensity tailored to unique situations and individual needs. 
+
+A simple and intuitive interface allows for the swift deployment of either pre-configured interval-based notifications or continuous, uninterrupted notifications, ensuring flexibility in haptic delivery suitable for any situation. 
+
+Utilising this application empowers users to remain informed and connected throughout their day, enriching their overall experience with Apple's wearable technology.
 
 
 
