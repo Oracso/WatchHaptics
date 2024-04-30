@@ -30,6 +30,7 @@ extension TimerManager {
     
     func initTimer() {
         timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(fireTimer), userInfo: nil, repeats: true)
+        
     }
     
     func startTimer() {
