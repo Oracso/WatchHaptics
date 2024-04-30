@@ -21,6 +21,8 @@ class TimerManager: ObservableObject {
     
     @Published var hapticInterval = 0
     
+    var session: WKExtendedRuntimeSession?
+    
 }
 
 
@@ -29,8 +31,9 @@ class TimerManager: ObservableObject {
 extension TimerManager {
     
     func initTimer() {
+        session = WKExtendedRuntimeSession()
+        session?.start()
         timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(fireTimer), userInfo: nil, repeats: true)
-        
     }
     
     func startTimer() {
@@ -66,6 +69,7 @@ extension TimerManager {
     
     func stopTimer() {
         timer?.invalidate()
+        session?.invalidate()
         timerActive = false
     }
     
@@ -80,8 +84,7 @@ extension TimerManager {
 
 extension TimerManager {
     func vibrate() {
-//        WKInterfaceDevice.current().play(.notification)
-        WKInterfaceDevice.current().play(.success)
+        WKInterfaceDevice.current().play(.failure)
     }
     
     func checkIfHapticFactor() {
